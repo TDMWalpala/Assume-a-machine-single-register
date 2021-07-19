@@ -15,14 +15,25 @@ Use variables of the form TEMPn as temporary variables.
 For example, the postfix expression ABC*+DE-/ should yield the printout.
 
 LD B
+
 ML C
+
 ST TEMP1
+
 LD A
+
 AD TEMP1
+
 ST TEMP2
+
 LD D
+
 SB E
+
 ST TEMP3
+
 LD TEMP2
+
 DV TEMP3
+
 ST TEMP4
